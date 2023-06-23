@@ -6,7 +6,7 @@ import CustomButton from './CustomButton'
 
 const Navbar = () => {
   return (
-    <header className="w-full fixed top-0 z-10">
+    <header className="w-full fixed top-0 z-[100]">
         <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4">
             <Link href="/" className="flex items-center justify-center">
                 <Image src="/logo.svg" alt="Car Hub Logo" width={118} height={18} className="object-contain"/>
